@@ -24,7 +24,7 @@
 
 ### 无需服务器，使用actions运行
 0. 了解`**使用方法（简易） & 单人模式**`
-1. fork本项目
+1. fork本项目  
 ![image](https://user-images.githubusercontent.com/50775291/188301110-1bb7359c-eeb8-4474-80d3-540b51c2aeee.png)
 2. 修改`config.py`配置文件，多人模式在`accessToken.py`填写`accessToken`
 3. 进入actions，选择具体的`Workflows`并手动运行一次，此后会定时运行打卡程序

@@ -1,6 +1,5 @@
 # 奕辅导每日打卡
 
-[toc]
 ### 文件说明
 `YiFuDao_Puncher.py`为打卡主程序  
 

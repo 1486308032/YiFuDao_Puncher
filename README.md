@@ -1,4 +1,7 @@
+[TOC]
+
 # 奕辅导每日打卡
+
 ### 文件说明
 `YiFuDao_Puncher.py`为打卡主程序  
 
@@ -22,7 +25,7 @@
 2.运行`YiFuDao_Puncher.py`即可打卡
 
 ### 无需服务器，使用actions运行
-0. 了解**使用方法（简易） & 单人模式**
+0. 了解`**使用方法（简易） & 单人模式**`
 1. fork本项目
 ![image](https://user-images.githubusercontent.com/50775291/188301110-1bb7359c-eeb8-4474-80d3-540b51c2aeee.png)
 2. 修改`config.py`配置文件，多人模式在`accessToken.py`填写`accessToken`

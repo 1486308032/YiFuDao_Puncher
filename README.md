@@ -22,12 +22,14 @@
 
 2.运行`YiFuDao_Puncher.py`即可打卡
 
-### 三、无需服务器，使用actions运行
+### 三、无服务器，使用actions运行
 0. 了解`**使用方法（简易） & 单人模式**`
 1. fork本项目  
 ![image](https://user-images.githubusercontent.com/50775291/188301110-1bb7359c-eeb8-4474-80d3-540b51c2aeee.png)
 2. 修改`config.py`配置文件，多人模式在`accessToken.py`填写`accessToken`
-3. 进入actions，选择具体的`Workflows`并手动运行一次，此后会定时运行打卡程序
+3. 在自己账号下的仓库进入actions，选择具体的`Workflows`并手动运行一次，此后会定时运行打卡程序  
+![image](https://user-images.githubusercontent.com/50775291/188301809-e0dc9f91-30b8-4bb7-a0f9-fcb11d7587be.png)
+* 注意左上角的账号名，要是自己的
 ![image](https://user-images.githubusercontent.com/50775291/188301316-76be9bfc-385b-4432-afc0-2ca59e6f18e9.png)
 4.修改打卡时间
 * 修改`.github/workflows/work.yml`中的`- cron:  '5 16 * * *`，意思为16:05时运行程序，此处为UTC+0时间，换算成北京时间即为UTC+8 00:05时运行程序

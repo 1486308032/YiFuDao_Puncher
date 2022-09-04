@@ -1,6 +1,6 @@
 # 奕辅导每日打卡
 
-### 文件说明
+### 一、文件说明
 `YiFuDao_Puncher.py`为打卡主程序  
 
 `config.py`为配置文件  
@@ -11,7 +11,7 @@
 `accessToken.py`用于多人模式填写`accessToken`，单人模式可忽略
 
 
-### 使用方法（简易） & 单人模式
+### 二、使用方法（简易） & 单人模式
 1. 抓取`accessToken`
 ![image](https://user-images.githubusercontent.com/50775291/188295787-c79cba73-c6eb-4fab-83a0-10495e4d807c.png)
 * 打开奕辅导
@@ -22,7 +22,7 @@
 
 2.运行`YiFuDao_Puncher.py`即可打卡
 
-### 无需服务器，使用actions运行
+### 三、无需服务器，使用actions运行
 0. 了解`**使用方法（简易） & 单人模式**`
 1. fork本项目  
 ![image](https://user-images.githubusercontent.com/50775291/188301110-1bb7359c-eeb8-4474-80d3-540b51c2aeee.png)
@@ -32,7 +32,7 @@
 4.修改打卡时间
 * 修改`.github/workflows/work.yml`中的`- cron:  '5 16 * * *`，意思为16:05时运行程序，此处为UTC+0时间，换算成北京时间即为UTC+8 00:05时运行程序
 
-### 推送方式
+### 四、推送方式
 ##### pushplus:
 1. 注册账号，并关注微信公众号 www.pushplus.plus
 2. 在`config.py`填写`notice_token`, `notice`设置为`"pushplus"`
@@ -40,7 +40,7 @@
 ![推送结果](https://user-images.githubusercontent.com/50775291/188299503-52c76ac6-022f-4ba6-8489-976af3f8919e.png)
 
 
-### 注意！
+### 五、注意！
 * `__questionnaireVo_id_`为打卡问卷的ID，一般不会变化。当发布者修改了问卷，此ID将会变动，需要自己抓包并修改ID
 * `question_publish_id`每天动态获取，每个人不同
 * `accessToken`有时效性，一段时间后会失效，需重新抓取

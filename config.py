@@ -1,7 +1,7 @@
 import random
 
 #修改accessToken(单人模式),多人模式此处accessToken不生效
-accessToken = "tZM/+uPznH/j1NJPbDX9u2N/ydkEVreZrnsv5qQ99WjiHIw7irVbVemJuyfpfYcAm1XyUoEcNtjPs3wE7wb5HyF6bZ093tkxWyZpMNdFloOsWdEx3kKMR0BZdaDywEKG2kjxfYjqsaw/M9AiZ2Glqg=="
+accessToken = "tZM/+uPznH/j1NJPbDX****************************G2kjxfYjqsaw/M9AiZ2Glqg=="
 
 # 选择模式 单人：single；多人：multi
 # 多人模式 在accessToken.py 填写 accessToken
@@ -9,7 +9,7 @@ mode = "single"
 
 #通知方式 推送加:pushplus、自建推送:diy、不用推送:None
 notice="diy"
-notice_token="ea6811587220437c8c6584494b923868"
+notice_token="ea6811587*************3868"
 
 #问卷公共ID
 __questionnaireVo_id__ = "1001642561233886004860000000001"
